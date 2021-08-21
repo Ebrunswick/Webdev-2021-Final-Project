@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evan Brunswick Main Page</title>
+    <link rel="stylesheet" href="./styles/mainPage.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+  </head>
+  <body>
+      <!-- Add a nav bar at the top-->
+      <!-- Add a introductory image and stuff-->
+
+      <section id="about">
+        <h1>introductory Section</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+      <section id="previous_work">
+          <h1>Previous Work</h1>
+          <div>
+              <!-- Maybe make each section a dropdown? I'll consider that later.-->
+              <h2>PlusQA</h2>
+              <p>PlusQA description</p>
+              <h2>Inseego USA LLC</h2>
+              <p>PlusQA description</p>
+              <h2>Mosaic Finance</h2>
+              <p>PlusQA description</p>
+          </div>
+      </section>
+      <section id="projects">
+          <h2>Computer Graphics - Image Filters</h2>
+          <p>description</p>
+          <a href="">View On Github</a>
+          <!-- <h2>Computer Graphics - Amusement Park</h2> -->
+          <h2>Capstone Project - Supply Chain Security and CTF</h2>
+          <p>description</p>
+          <a href="">View On Github</a>
+      </section>
+      <!-- Rework to use my own form, potentially break out into another page.-->
+      <section id="contact">
+        <form action="" class="form">
+            <h1>Contact Form</h1>
+            <div class="form-group">
+              <label for="Username">Username:</label>
+              <input type="text" class="form-control" id="Username" placeholder=""/>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="text" class="form-control" id="email" placeholder=""/>
+            </div>
+            <div class="form-group">
+              <label for="Password">Password:</label>
+              <input type="text" class="form-control" id="Password" placeholder=""/>
+            </div>
+              Would you like to Sign up for the news letter?
+              <div class="form-check">
+                <div>
+                  <input type="radio" id="signMeUp" name="signUpSelection" value="Yes" class="radio-btn">
+                  <label for="signMeUp" class="radio-btn-label" id="SignUpBtn">Yes, Sign Me Up!</label>
+                </div>
+                <div>
+                  <input type="radio" id="noSignUp" name="signUpSelection" value="No" class="radio-btn">
+                  <label for="noSignUp" class="radio-btn-label" id="noSignUp">No, Thank You</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" class="input-group date" />
+              </div>
+              <div class="form-group submit">
+                <input type="submit" name="submit" value="Submit" class="btn-primary btn" id="submit" />
+                <input type="reset" name="reset" value="Reset" class="btn-secondary btn" id="reset"/>
+              </div>
+          </form>
+      </section>
+  </body>
+</html>
