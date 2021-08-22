@@ -18,11 +18,18 @@ body {
     grid-template-rows: repeat(9, 4em);
 }
 
+.job-header {
+    grid-row: span 1;
+    grid-column: span 3;
+    background-color: teal;
+    float: left;
+}
+
 .job-item {
     float: left;
     background-color: yellow;
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 .grid-item {
