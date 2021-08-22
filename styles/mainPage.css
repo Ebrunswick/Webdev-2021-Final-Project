@@ -20,6 +20,7 @@ body {
 
 .job-item {
     float: left;
+    background-color: yellow;
     grid-column: span 1;
     grid-row: span 3;
 }
