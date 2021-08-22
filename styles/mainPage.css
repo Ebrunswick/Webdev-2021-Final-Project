@@ -3,6 +3,10 @@ body {
     background-image: url("../silver-background.jpg");
 }
 
+p {
+    font-size: small;
+}
+
 .background-light-grey {
     background-color: lightgrey;
 }
@@ -22,11 +26,9 @@ body {
     grid-row: span 1;
     grid-column: span 3;
     background-color: teal;
-    float: left;
 }
 
 .job-item {
-    float: left;
     background-color: yellow;
     grid-column: span 1;
     grid-row: span 2;
