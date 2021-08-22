@@ -1,0 +1,20 @@
+
+.background-light-grey {
+    background-color: lightgrey;
+}
+
+.background-white {
+    background-color: whitesmoke;
+}
+
+.job-grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 4em);
+}
+
+.job-item {
+    grid-column: span 1;
+    grid-row: span 9;
+}
