@@ -33,8 +33,10 @@
       </nav>
       <!-- Add a introductory image and stuff-->
 
-      <section id="about" class="background-light-grey">
-        <img src="./evan_brunswick_photo.jpg" alt="a photo of Evan Brunswick.">
+      <section id="about" class="">
+        <div id="image-content">
+          <img src="./evan_brunswick_photo.jpg" alt="a photo of Evan Brunswick.">
+        </div>
         <div class="text-contents">
           <p>Hello Everyone! I am Evan Brunswick, and I am an SDET(Software Developer in Test) at Mosaic Finance. I am currently working towards my
             Bachellor's degree in Computer Science At 
@@ -52,11 +54,11 @@
         </div>
       </section>
       <section id="previous_work" class="job-grid-container grid-container background-white">
-        <div class="job-header">
-          <h1>Previous Work</h1>
+        <div class="job-header background-light-grey">
+          <h1>Work History</h1>
         </div>
             <!-- make sections 3 columns with descriptions-->
-        <div class="job-item grid-item">
+        <div class="job-item grid-item background-light-grey">
           <h2>PlusQA</h2>
           <p>December, 2020 -  March, 2020 </p>
           <p>Worked as a manual quality assurance tester, specializing in ADA and accessibility(a11y) testing. 
@@ -64,7 +66,7 @@
             Text to Speech and other various a11y applications.
           </p>
         </div>
-        <div class="job-item grid-item">
+        <div class="job-item grid-item background-light-grey">
           <h2>Inseego USA LLC</h2>
           <p>April, 2020 - September, 2020</p>
           <p>An internship position as manual and automation QA. The primary purpose was to discover and analyze bugs
@@ -73,26 +75,41 @@
             on the Amazon AWS S3 buckets.
           </p>
         </div>
-        <div class="job-item grid-item">
+        <div class="job-item grid-item background-light-grey">
           <h2>Mosaic Finance</h2>
           <p>December, 2020 - Current</p>
-          <p></p>
+          <p>Currently working as an SDET writing automated regression tests with Cypress framework in Typescript. Other responsibilities involve
+            manual testing of new features, APIs, financial calculations, data mappings, and network testing. 
+          </p>
         </div>
       </section>
       <section id="projects" class="background-light-grey">
-          <h2>Computer Graphics - Image Filters</h2>
-          <p>description</p>
-          <a href="">View On Github</a>
+          <h2>Computer Graphics - Amusement Park Project</h2>
+          <p>This project was done for the CS447P/557 Introduction to Computer Graphics class at Portland State Univerisity.
+            The assignment was to create an amusement park from scratch using a framework called openGL. We were provided a
+            flat terrain and a b-spline for a roller coaster. Our goal was to create several objects in the environment that
+            would be seen at an amusement park and generate them with openGL. All aspects including texturing and positioning
+            were part of the project. Users could also add custom models created in Blender, but would have to write a class to
+            interpret the files.
+          </p>
+          <a href="https://github.com/Ebrunswick/Computer-Graphics-Amusement-Park">View the Amusement Park Project On Github</a>
           <!-- <h2>Computer Graphics - Amusement Park</h2> -->
           <h2>Capstone Project - Supply Chain Security and CTF</h2>
-          <p>description</p>
-          <a href="">View On Github</a>
+          <p>While done as a group, this is the project my group undertook and developed for Capstone.
+            The project was to create a CTF game with codelabs that would show off what a supply chain attack is, how they are performed
+            by an attacker, and how to best defend against them. The sponsor for this is Professor Wu-chang at Portland State Univerisity
+            and the CTF game will be used as additional teaching material for his students and others at PSU.
+          </p>
+          <a href="https://github.com/garcilazor/Software_Supply_Chain_Security">View the Supply Chain CTF Game On Github</a>
       </section>
       <!-- Rework to use my own form, potentially break out into another page.-->
       <section id="contact">
         <form action="" class="form">
             <h1>Contact Form</h1>
-            <div class="form-group">
+            <!-- Make a button for the contact me
+            turn it into a popover
+            and put the form there. -->
+            <!-- <div class="form-group">
               <label for="Username">Username:</label>
               <input type="text" class="form-control" id="Username" placeholder=""/>
             </div>
@@ -110,7 +127,7 @@
               </div>
               <div class="form-group submit">
                 <input type="submit" name="submit" value="Submit" class="btn-primary btn" id="submit" />
-                <input type="reset" name="reset" value="Reset" class="btn-secondary btn" id="reset"/>
+                <input type="reset" name="reset" value="Reset" class="btn-secondary btn" id="reset"/> -->
               </div>
           </form>
       </section>
