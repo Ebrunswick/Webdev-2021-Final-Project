@@ -1,0 +1,32 @@
+.navbar-top {
+    background-color: whitesmoke;
+    height: 50px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:black;
+}
+
+.navbar-contents {
+    float: right;
+    width:fit-content
+}
+
+.navbar-top-list-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-link {
+    float: left;
+    border-color: black;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    padding: 15px;
+}
