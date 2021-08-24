@@ -80,6 +80,11 @@ h2 {
     text-align: center;
 }
 
+#contact {
+    height: 600px;
+    align-content: center;
+}
+
 .text-contents {
     width: 800px;
     word-wrap: normal;
