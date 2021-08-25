@@ -39,7 +39,9 @@ h2 {
 }
 
 .job-item {
-    width: 600px;
+    width: fit-content;
+    min-width: 33%;
+    overflow-y: scroll;
     border-radius: 5px;
     grid-column: span 1;
     grid-row: span 4;
@@ -83,11 +85,11 @@ h2 {
 #about #image-content {
     width: 500px;
     height: 400px;
-    padding-top: 10px;
     float: left;
+    margin-right: 10px;
 }
 
-#about p, h1{
+#about p{
     margin-top: 10px;
     padding-top: 10px;
     text-align: center;
@@ -106,13 +108,16 @@ h2 {
 
 .text-contents {
     border-radius: 5px;
-    width: 800px;
+    min-width: 100px;
+    width:auto;
+    max-width: 800px;
+    overflow: scroll;
     word-wrap: normal;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 400px;
-    margin: 10px;
-    float: left;
     justify-content: center;
     align-content: center;
 }
