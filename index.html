@@ -13,34 +13,36 @@
   </head>
   <body>
       <!-- Add a nav bar at the top-->
-      <nav class="navbar-top">
-        <!-- <div class="navbar-contents">
-          Evan Brunswick
-        </div> -->
+      <header>
+        <nav class="navbar-top">
+          <!-- <div class="navbar-contents">
+            Evan Brunswick
+          </div> -->
 
-          <ul class="navbar-list">
-            <li class="navbar-top-list-item">
-              <a href="index.html#about" class="navbar-link">About Me</a>
-            </li>
-            <li class="navbar-top-list-item">
-              <a href="index.html#previous_work" class="navbar-link">Previous Work</a>
-            </li>
-            <li class="navbar-top-list-item">
-              <a href="index.html#projects" class="navbar-link">Projects</a>
-            </li>
-            <li class="navbar-top-list-item">
-              <a href="index.html#contact" class="navbar-link">Contact</a>
-            </li>
-          </ul>
+            <ul class="navbar-list">
+              <li class="navbar-top-list-item">
+                <a href="index.html#about" class="navbar-link">About Me</a>
+              </li>
+              <li class="navbar-top-list-item">
+                <a href="index.html#previous_work" class="navbar-link">Previous Work</a>
+              </li>
+              <li class="navbar-top-list-item">
+                <a href="index.html#projects" class="navbar-link">Projects</a>
+              </li>
+              <li class="navbar-top-list-item">
+                <a href="index.html#contact" class="navbar-link">Contact</a>
+              </li>
+            </ul>
 
-      </nav>
+        </nav>
+      </header>
       <!-- Add a introductory image and stuff-->
 
       <section id="about" class="">
         <div id="image-content">
           <img src="./evan_brunswick_photo.jpg" alt="a photo of Evan Brunswick.">
         </div>
-        <div class="text-contents">
+        <div class="text-contents background-light-grey">
           <p>Hello Everyone! I am Evan Brunswick, and I am an SDET(Software Developer in Test) at Mosaic Finance. I am currently working towards my
             Bachellor's degree in Computer Science At 
             <a href="https://www.pdx.edu/">Portland State Univerisity</a> 
@@ -56,13 +58,16 @@
           </p>
         </div>
       </section>
-      <section id="previous_work" class="job-grid-container grid-container background-white">
+      <section id="previous_work" class="job-grid-container grid-container">
         <div class="job-header background-light-grey">
           <h1>Work History</h1>
         </div>
             <!-- make sections 3 columns with descriptions-->
         <div class="job-item grid-item background-light-grey">
-          <h2>PlusQA</h2>
+          <img src="./logos/plusqa.png" alt="Plus QA Logo" class="job-image">
+          <h2>
+            <a href="https://plusqa.com">PlusQA</a>
+          </h2>
           <p>December, 2020 -  March, 2020 </p>
           <p>Worked as a manual quality assurance tester, specializing in ADA and accessibility(a11y) testing. 
             Worked with various tools such as Macintosh's Voiceover on both MacOS and iOS, as well as Android's 
@@ -70,7 +75,10 @@
           </p>
         </div>
         <div class="job-item grid-item background-light-grey">
-          <h2>Inseego USA LLC</h2>
+          <img src="./logos/inseego.png" alt="Inseego USA LLC Logo" class="job-image">
+          <h2>
+            <a href="https://inseego.com/">Inseego</a>
+          </h2>
           <p>April, 2020 - September, 2020</p>
           <p>An internship position as manual and automation QA. The primary purpose was to discover and analyze bugs
             and defects, referred to as faults, in new and existing features. The testing was to be done on custom 
@@ -79,7 +87,10 @@
           </p>
         </div>
         <div class="job-item grid-item background-light-grey">
-          <h2>Mosaic Finance</h2>
+          <img src="./logos/mosaic.png" alt="Mosaic Finance Logo" class="job-image">
+          <h2>
+            <a href="https://www.mosaic.tech/">Mosaic Finance</a>
+          </h2>
           <p>December, 2020 - Current</p>
           <p>Currently working as an SDET writing automated regression tests with Cypress framework in Typescript. Other responsibilities involve
             manual testing of new features, APIs, financial calculations, data mappings, and network testing. 
@@ -108,7 +119,7 @@
       <!-- Rework to use my own form, potentially break out into another page.-->
       <section id="contact" class="container">
         <div class="row">
-          <form action="" class="form">
+          <form action="" class="form background-light-grey">
             <div>
               <h1>Contact Me</h1>
             </div>

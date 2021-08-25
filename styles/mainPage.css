@@ -1,7 +1,7 @@
-/* 
+
 body {
-    background-image: url("../silver-background.jpg");
-} */
+    background-image: url('../pexels-daniel-absi-952670.jpg');
+}
 
 p {
     font-size: medium;
@@ -30,15 +30,18 @@ h2 {
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 4em);
+    grid-template-rows: repeat(5, 6em);
 }
 
 .job-header {
+    border-radius:5px;
     grid-row: span 1;
     grid-column: span 3;
 }
 
 .job-item {
+    width: 600px;
+    border-radius: 5px;
     grid-column: span 1;
     grid-row: span 4;
 }
@@ -52,6 +55,11 @@ h2 {
     color: var(--white);
     font-size: 2.4em;
     text-align: center;
+}
+
+.form {
+    padding: 15px;
+    border-radius: 5px;
 }
 
 /* Specific element css */
@@ -68,9 +76,15 @@ h2 {
     float: right;
 }
 
+#projects {
+    /* need to make this bootstrap sectiong I guess. */
+    border-radius: 5px;
+}
+
 #about #image-content {
     width: 500px;
     height: 400px;
+    padding-top: 10px;
     float: left;
 }
 
@@ -85,12 +99,20 @@ h2 {
     align-content: center;
 }
 
+.job-image {
+    height: 100px;
+    max-width: 300px;
+}
+
 .text-contents {
+    border-radius: 5px;
     width: 800px;
     word-wrap: normal;
-    padding-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 400px;
     margin: 10px;
     float: left;
+    justify-content: center;
     align-content: center;
 }
